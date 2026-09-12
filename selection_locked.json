@@ -1,0 +1,80 @@
+{
+  "seed": 20260912,
+  "tuning_users": 26242,
+  "selected": {
+    "model": "lightgbm",
+    "product_threshold": 0.2,
+    "none_threshold": 0.05,
+    "mean_order_f1": 0.38321420918386917
+  },
+  "models": {
+    "frequency": {
+      "model": "frequency",
+      "product_threshold": 0.26,
+      "none_threshold": 0.05,
+      "mean_order_f1": 0.32888275353656193
+    },
+    "logistic": {
+      "model": "logistic",
+      "product_threshold": 0.18,
+      "none_threshold": 0.1,
+      "mean_order_f1": 0.3643769554613464
+    },
+    "lightgbm": {
+      "model": "lightgbm",
+      "product_threshold": 0.2,
+      "none_threshold": 0.05,
+      "mean_order_f1": 0.38321420918386917
+    }
+  },
+  "training": {
+    "logistic": {
+      "algorithm": "StandardScaler + averaged SGD logistic",
+      "alpha": 0.0001,
+      "max_iter": 30,
+      "actual_epochs": 8,
+      "rows": 5089927,
+      "class_weight": null
+    },
+    "lightgbm": {
+      "n_estimators": 180,
+      "learning_rate": 0.06,
+      "num_leaves": 31,
+      "max_depth": -1,
+      "min_child_samples": 150,
+      "colsample_bytree": 1,
+      "subsample": 1,
+      "reg_lambda": 5,
+      "n_jobs": 6,
+      "random_state": 20260912,
+      "verbosity": -1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "numeric_features": [
+      "frequency",
+      "frequency_since_first",
+      "orders_since_last",
+      "last3_frequency",
+      "purchase_count",
+      "mean_cart_position",
+      "mean_purchase_interval",
+      "history_orders",
+      "mean_basket_size",
+      "basket_size_std",
+      "unique_products",
+      "prior_reorder_rate",
+      "mean_order_gap",
+      "target_gap",
+      "target_dow",
+      "target_hour",
+      "days_since_product",
+      "last_basket_size"
+    ],
+    "categorical_features": [
+      "aisle_id",
+      "department_id"
+    ]
+  },
+  "holdout_used_for_selection": false
+}

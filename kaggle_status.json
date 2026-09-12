@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-09-12",
+  "competition_url": "https://www.kaggle.com/competitions/basket-analysis",
+  "old_slug": "instacart-market-basket-analysis",
+  "official_data_status": "Removed at host request; only sample_submission.csv remains",
+  "official_page_message": "The dataset and description have been removed at the request of the host.",
+  "late_submission_button": "disabled",
+  "submission_attempted": false,
+  "submission_count": 0,
+  "official_score": null,
+  "requirement_status": "FAIL",
+  "reason": "Competition disabled by host; cannot upload a late submission or obtain a new official score.",
+  "alternative_source_approved": true,
+  "evaluation_source": "https://www.kaggle.com/c/basket-analysis/overview",
+  "none_semantics": "Case-sensitive None token; may be submitted together with product IDs; empty true reorder sets represented by None."
+}

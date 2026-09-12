@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "rows": 75000,
+  "columns": [
+    "order_id",
+    "products"
+  ],
+  "all_test_order_ids_exact": true,
+  "all_products_from_user_history": true,
+  "duplicate_tokens": 0,
+  "empty_cells": 0,
+  "none_only_orders": 3572,
+  "none_with_products_orders": 11785,
+  "sha256": "96b5e5ed2139c8937182c5e6b24e1408790ed6938777d53c82973f22f94eedbb",
+  "official_sample_order_alignment": "test order_id set derived from orders.csv; official sample unavailable without competition re-entry"
+}

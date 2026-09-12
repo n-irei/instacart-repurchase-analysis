@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "public_file_allowlist": true,
+  "secret_pattern_scan": true,
+  "raw_source_csvs_excluded": true,
+  "individual_validation_labels_excluded": true,
+  "models_and_private_features_excluded": true,
+  "six_source_hashes_verified": true,
+  "metric_unit_tests_passed": true,
+  "audit_checks_passed": 61,
+  "limitations": "Pattern scans cannot prove absence of every possible secret; public files are explicitly allowlisted and raw data are outside the repository."
+}

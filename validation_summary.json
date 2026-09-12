@@ -1,0 +1,19 @@
+{
+  "selected_model": "lightgbm",
+  "holdout_orders": 26242,
+  "mean_order_f1": 0.38259640681256624,
+  "bootstrap_95_percent_ci": [
+    0.379613428516954,
+    0.3856490435723908
+  ],
+  "bootstrap_replicates": 1000,
+  "all_none_baseline": 0.06485786144348754,
+  "repeat_last_basket_baseline": 0.3107885678284992,
+  "selected_threshold": {
+    "model": "lightgbm",
+    "product_threshold": 0.2,
+    "none_threshold": 0.05,
+    "mean_order_f1": 0.38321420918386917
+  },
+  "no_reselection_after_holdout": true
+}

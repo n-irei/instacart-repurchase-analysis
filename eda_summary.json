@@ -1,0 +1,195 @@
+{
+  "tables": {
+    "orders": {
+      "rows": 3421083,
+      "columns": 7,
+      "nulls": {
+        "order_id": 0,
+        "user_id": 0,
+        "eval_set": 0,
+        "order_number": 0,
+        "order_dow": 0,
+        "order_hour_of_day": 0,
+        "days_since_prior_order": 206209
+      },
+      "memory_bytes": 58158690
+    },
+    "products": {
+      "rows": 49688,
+      "columns": 4,
+      "nulls": {
+        "product_id": 0,
+        "product_name": 0,
+        "aisle_id": 0,
+        "department_id": 0
+      },
+      "memory_bytes": 2277916
+    },
+    "aisles": {
+      "rows": 134,
+      "columns": 2,
+      "nulls": {
+        "aisle_id": 0,
+        "aisle": 0
+      },
+      "memory_bytes": 4302
+    },
+    "departments": {
+      "rows": 21,
+      "columns": 2,
+      "nulls": {
+        "department_id": 0,
+        "department": 0
+      },
+      "memory_bytes": 638
+    },
+    "order_products__prior": {
+      "rows": 32434489,
+      "columns": 4,
+      "nulls": {
+        "order_id": 0,
+        "product_id": 0,
+        "add_to_cart_order": 0,
+        "reordered": 0
+      },
+      "memory_bytes": 356779511
+    },
+    "order_products__train": {
+      "rows": 1384617,
+      "columns": 4,
+      "nulls": {
+        "order_id": 0,
+        "product_id": 0,
+        "add_to_cart_order": 0,
+        "reordered": 0
+      },
+      "memory_bytes": 15230919
+    }
+  },
+  "eval_set_orders": {
+    "prior": 3214874,
+    "train": 131209,
+    "test": 75000
+  },
+  "prior_orders_per_user": {
+    "count": 206209.0,
+    "mean": 15.590367054784224,
+    "std": 16.654773501154427,
+    "min": 3.0,
+    "10%": 3.0,
+    "50%": 9.0,
+    "90%": 37.0,
+    "99%": 88.0,
+    "max": 99.0
+  },
+  "prior_gap_counts": {
+    "0.0": 64436,
+    "1.0": 141011,
+    "2.0": 187723,
+    "3.0": 210665,
+    "4.0": 214488,
+    "5.0": 206691,
+    "6.0": 230245,
+    "7.0": 306181,
+    "8.0": 173259,
+    "9.0": 112184,
+    "10.0": 90198,
+    "11.0": 76394,
+    "12.0": 71356,
+    "13.0": 77765,
+    "14.0": 93064,
+    "15.0": 61883,
+    "16.0": 43423,
+    "17.0": 36281,
+    "18.0": 33050,
+    "19.0": 31408,
+    "20.0": 35173,
+    "21.0": 41262,
+    "22.0": 29125,
+    "23.0": 21629,
+    "24.0": 18704,
+    "25.0": 17324,
+    "26.0": 17120,
+    "27.0": 19677,
+    "28.0": 23833,
+    "29.0": 16976,
+    "30.0": 306137
+  },
+  "prior_hour_counts": {
+    "0": 21372,
+    "1": 11596,
+    "2": 7070,
+    "3": 5120,
+    "4": 5175,
+    "5": 8972,
+    "6": 28792,
+    "7": 86656,
+    "8": 168321,
+    "9": 243496,
+    "10": 271885,
+    "11": 268006,
+    "12": 256206,
+    "13": 261174,
+    "14": 265556,
+    "15": 266132,
+    "16": 255949,
+    "17": 214080,
+    "18": 170998,
+    "19": 131620,
+    "20": 98109,
+    "21": 73436,
+    "22": 57540,
+    "23": 37613
+  },
+  "prior_dow_counts": {
+    "0": 557772,
+    "1": 556705,
+    "2": 441955,
+    "3": 412400,
+    "4": 401212,
+    "5": 425982,
+    "6": 418848
+  },
+  "prior_row_reorder_rate": 0.5896974667922161,
+  "prior_basket_size": {
+    "count": 3214874.0,
+    "mean": 10.088883421247614,
+    "std": 7.525398340046085,
+    "min": 1.0,
+    "10%": 2.0,
+    "50%": 8.0,
+    "90%": 20.0,
+    "99%": 35.0,
+    "max": 145.0
+  },
+  "optimized_prior_working_bytes": 713558890,
+  "candidate_pairs_all": 13307953,
+  "train": {
+    "users": 78725,
+    "candidates": 5089927,
+    "candidate_positive_rate": 0.09763499555101675,
+    "none_order_rate": 0.06581136868847252,
+    "feature_memory_bytes": 508992700
+  },
+  "tune": {
+    "users": 26242,
+    "candidates": 1694038,
+    "candidate_positive_rate": 0.09774574124075139,
+    "none_order_rate": 0.06550567792089018,
+    "feature_memory_bytes": 169403800
+  },
+  "hold": {
+    "users": 26242,
+    "candidates": 1690696,
+    "candidate_positive_rate": 0.09835239451681438,
+    "none_order_rate": 0.06485786144348754,
+    "feature_memory_bytes": 169069600
+  },
+  "test": {
+    "users": 75000,
+    "candidates": 4833292,
+    "candidate_positive_rate": null,
+    "none_order_rate": null,
+    "feature_memory_bytes": 483329200
+  }
+}

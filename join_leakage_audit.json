@@ -1,0 +1,253 @@
+{
+  "orders_unique_key": {
+    "pass": true,
+    "detail": null
+  },
+  "products_unique_key": {
+    "pass": true,
+    "detail": null
+  },
+  "aisles_unique_key": {
+    "pass": true,
+    "detail": null
+  },
+  "departments_unique_key": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__prior_unique_order_product": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__prior_nonnull": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__prior_binary_reordered": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__prior_product_foreign_key": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__train_unique_order_product": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__train_nonnull": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__train_binary_reordered": {
+    "pass": true,
+    "detail": null
+  },
+  "order_products__train_product_foreign_key": {
+    "pass": true,
+    "detail": null
+  },
+  "product_aisle_fk": {
+    "pass": true,
+    "detail": null
+  },
+  "product_department_fk": {
+    "pass": true,
+    "detail": null
+  },
+  "metadata_row_count": {
+    "pass": true,
+    "detail": null
+  },
+  "null_gap_exactly_first_order": {
+    "pass": true,
+    "detail": null
+  },
+  "no_other_orders_nulls": {
+    "pass": true,
+    "detail": null
+  },
+  "valid_order_domain": {
+    "pass": true,
+    "detail": null
+  },
+  "valid_eval_sets": {
+    "pass": true,
+    "detail": null
+  },
+  "consecutive_user_orders": {
+    "pass": true,
+    "detail": null
+  },
+  "one_final_target_per_user": {
+    "pass": true,
+    "detail": null
+  },
+  "target_is_last_order": {
+    "pass": true,
+    "detail": null
+  },
+  "pairwise_disjoint_users": {
+    "pass": true,
+    "detail": null
+  },
+  "split_counts": {
+    "train": 78725,
+    "tune": 26242,
+    "hold": 26242,
+    "test": 75000
+  },
+  "split_manifest_sha256": "21d5a5cb576e7f5886e740b0b3edd28b2318d0b781fc3dc0b3aebb00d4da6064",
+  "prior_order_fk_and_membership": {
+    "pass": true,
+    "detail": null
+  },
+  "train_label_order_fk_and_membership": {
+    "pass": true,
+    "detail": null
+  },
+  "all_prior_orders_have_items": {
+    "pass": true,
+    "detail": null
+  },
+  "all_train_orders_have_items": {
+    "pass": true,
+    "detail": null
+  },
+  "historical_join_no_row_loss": {
+    "pass": true,
+    "detail": null
+  },
+  "historical_reordered_counts": {
+    "pass": true,
+    "detail": null
+  },
+  "first_purchase_reordered_zero": {
+    "pass": true,
+    "detail": null
+  },
+  "user_features_complete": {
+    "pass": true,
+    "detail": null
+  },
+  "train_reordered_matches_history": {
+    "pass": true,
+    "detail": null
+  },
+  "train_features_before_target": {
+    "pass": true,
+    "detail": null
+  },
+  "train_history_target_adjacent": {
+    "pass": true,
+    "detail": null
+  },
+  "train_candidate_label_coverage": {
+    "pass": true,
+    "detail": null
+  },
+  "train_finite_features": {
+    "pass": true,
+    "detail": null
+  },
+  "train_candidate_unique": {
+    "pass": true,
+    "detail": null
+  },
+  "train_all_target_orders_have_candidates": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_features_before_target": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_history_target_adjacent": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_candidate_label_coverage": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_finite_features": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_candidate_unique": {
+    "pass": true,
+    "detail": null
+  },
+  "tune_all_target_orders_have_candidates": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_features_before_target": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_history_target_adjacent": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_candidate_label_coverage": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_finite_features": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_candidate_unique": {
+    "pass": true,
+    "detail": null
+  },
+  "hold_all_target_orders_have_candidates": {
+    "pass": true,
+    "detail": null
+  },
+  "test_features_before_target": {
+    "pass": true,
+    "detail": null
+  },
+  "test_history_target_adjacent": {
+    "pass": true,
+    "detail": null
+  },
+  "test_finite_features": {
+    "pass": true,
+    "detail": null
+  },
+  "test_candidate_unique": {
+    "pass": true,
+    "detail": null
+  },
+  "test_all_target_orders_have_candidates": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_aisles.csv": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_departments.csv": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_order_products__prior.csv": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_order_products__train.csv": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_orders.csv": {
+    "pass": true,
+    "detail": null
+  },
+  "sha256_products.csv": {
+    "pass": true,
+    "detail": null
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+private/
+work/
+*.parquet
+*.npy
+*.zip
+*lightgbm.txt
+PUBLICATION_VERIFICATION.json

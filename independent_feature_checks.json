@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "sampled_users": 8,
+  "sampled_candidate_rows": 561,
+  "numeric_features": 18,
+  "maximum_absolute_difference": 7.629394538355427e-07,
+  "relative_tolerance": 2e-06,
+  "labels_file_read": false,
+  "prior_chunk_rows": 1000000,
+  "scope": "Independent source recomputation for 2 users from each of four partitions; complements full-table audits, not a proof for every feature row"
+}

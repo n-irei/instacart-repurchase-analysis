@@ -22,7 +22,7 @@ PASSは添付証拠で確認した項目、FAILは未達項目です。Kaggleの
 | 検証結果と閾値探索結果 | PASS | validation_results.csv、threshold_search.csv |
 | 75,000注文のsubmission.csv | PASS | submission_checks.json、履歴候補・ID完全網羅・重複なし |
 | Kaggle実提出とスコア確認 | FAIL | 主催者による競技無効化、提出0件、公式スコアなし |
-| GitHub公開・push | FAIL | 公開確認待ち。成功確認後に更新 |
-| GitHubとローカルの一致確認 | FAIL | 公開先照合待ち。成功確認後に更新 |
+| GitHub公開・push | PASS | https://github.com/n-irei/instacart-repurchase-analysis、PUBLIC・push確認済み |
+| GitHubとローカルの一致確認 | PASS | 匿名cloneとローカルの全32追跡ファイルでSHA-256・内容一致。証拠はローカルPUBLICATION_VERIFICATION.json |
 
 公式取得から第三者保存版への変更、および公式採点が現状利用できない点は、ユーザーのGOを受けて進めています。FAILはその外部制約を残した記録です。

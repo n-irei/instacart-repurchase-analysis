@@ -42,4 +42,6 @@ Linuxでは`.venv/bin/python`を利用できますが、固定バージョンの
 
 ## 公開範囲
 
+公開先：[n-irei/instacart-repurchase-analysis](https://github.com/n-irei/instacart-repurchase-analysis)。匿名アクセスでPUBLICと全32追跡ファイルの内容一致を確認済みです。
+
 コード、集計、レポート、図、75,000注文の提出形式CSVを公開します。元データ、ユーザー分割表、個別検証ラベル、特徴量、中間予測、モデルファイル、認証情報は公開しません。ローカルと公開コミットの全追跡ファイルは`verify_publication.py`でSHA-256照合できます。検証結果の`PUBLICATION_VERIFICATION.json`は自己参照を避けるためローカル専用です。
